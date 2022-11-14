@@ -1,4 +1,5 @@
 import React from "react";
+import { UilInstagramAlt, UilWhatsappAlt } from '@iconscout/react-unicons'
 // import logo from "./logoFooter.png";
 // import logo from './logoqatar.jpg'
 
@@ -31,12 +32,12 @@ function Footer() {
           <p className="h5 mb-3">Contacto</p>
           <div className="mb-1">
             <a className="text-secondary text-decoration-none "  target='_blank' href="https://wa.me/3426310014">
-              WhatsApp
+              <UilWhatsappAlt />
             </a>
           </div>
           <div className="mb-1">
             <a className="text-secondary text-decoration-none" target='_blank' href="https://instagram.com/losteroscomplejo?igshid=YmMyMTA2M2Y=">
-              Instagram
+              <UilInstagramAlt />
             </a>
           </div>
         </div>

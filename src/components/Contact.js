@@ -15,6 +15,7 @@ export default function Contact() {
   };
 
   return (
+    <section id="contact">
     <div>
       <h1>Contacto</h1>
       <form onSubmit={sendEmail}>
@@ -30,5 +31,6 @@ export default function Contact() {
         <button>Enviar</button>
       </form>
     </div>
+    </ section>
   );
 }

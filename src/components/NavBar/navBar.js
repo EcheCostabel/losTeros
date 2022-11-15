@@ -13,8 +13,8 @@ function navBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
             <Nav.Link href="#home" className='navLinks'>Home</Nav.Link>
-            <Nav.Link href="#link1" className='navLinks'>Galeria</Nav.Link>
-            <Nav.Link href="#link2" className='navLinks'>Contacto</Nav.Link>
+            <Nav.Link href="#gallery" className='navLinks'>Galeria</Nav.Link>
+            <Nav.Link href="#contact" className='navLinks'>Contacto</Nav.Link>
             <Nav.Link href="#link3" className='navLinks'>Sobre Nosotros</Nav.Link>
           </Nav>
         </Navbar.Collapse>

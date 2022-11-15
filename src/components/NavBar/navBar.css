@@ -1,0 +1,12 @@
+.navLinks {
+    color: #F0EFF4;
+    font-size: 1.1rem;
+    font-weight: 300;
+    display: flex;
+    background: none;
+}
+
+
+.navLinks:hover {
+    color: #E2D0C4
+}

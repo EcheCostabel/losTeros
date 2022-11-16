@@ -6,7 +6,7 @@ import './navBar.css'
 
 function navBar() {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark"  expand="lg"  >
       <Container>
         <Navbar.Brand href="#home" className='navLinks'>Complejo Los Teros</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

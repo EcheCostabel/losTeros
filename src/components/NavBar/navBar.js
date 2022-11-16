@@ -5,11 +5,7 @@ import "./navBar.css";
 
 function navBar() {
   return (
-<<<<<<< HEAD
-    <Navbar bg="dark"  expand="lg"  >
-=======
-    <Navbar className="navBar" bg="dark" expand="lg">
->>>>>>> fe0139f22467a696d1c8c94e2aaaf122fbf90dfb
+    <Navbar  bg="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home" className="navLinks">
           Complejo Los Teros

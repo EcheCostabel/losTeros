@@ -4,6 +4,7 @@ import Contact from "./Contact/contact";
 import Gallery from "./Gallery/gallery";
 import Carousel from "./Carousel/carousel";
 import About from "./About/about";
+import Hotel from "./Hotel/hotel";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <NavBar />
       <Carousel />
       <Gallery />
+      <Hotel />
       <Contact />
       <About />
       <Footer />

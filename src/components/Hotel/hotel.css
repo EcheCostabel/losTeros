@@ -1,0 +1,15 @@
+#hotel .col-lg-6{
+    margin: 0 !important;
+    padding: 5px;
+}
+
+#hotel img{
+    width: 80%;
+    height: 300px;
+    padding: 5px;
+
+}
+
+#hotel img:hover{
+    border: 4px solid #f7f7f7;
+}

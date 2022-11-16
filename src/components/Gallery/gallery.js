@@ -23,10 +23,13 @@ function gallery() {
       <section id="gallery" className="container">
         <div class="text-center pt-5">
           <h1>Salon Principal</h1>
-          <p>
-            Siempre hay motivos para celebrar!!... Organiza tu fiesta en nuestro
-            salón completamente equipado para vos!!
-          </p>
+
+          <h5>
+          Siempre hay motivos para celebrar!!...
+          </h5>
+          
+          
+
         </div>
         <ul>
           <li>Estacionamiento</li>

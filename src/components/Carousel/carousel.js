@@ -6,30 +6,43 @@ import "./carousel.css";
 
 function Carousell() {
   return (
+
     <Carousel className="carrusel">
       <Carousel.Item className="carou">
         <img className="d-block w-100" src={img1} alt="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className="carou">
-        <img className="d-block w-100" src={img2} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Organizamos tu fiesta en nuestro salón completamente equipado para vos!</h3>
+          {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carou">
-        <img className="d-block w-100" src={img3} alt="Third slide" />
+
+      <Carousel.Item className='carou'>
+        <img
+          className="imgg"
+          src={img2}
+          alt="Second slide"
+        />
+
+
+        <Carousel.Caption>
+          <h3>Dejanos ser parte de tu mejor recuerdo.</h3>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item className='carou'>
+        <img
+          className="imgg"
+          src={img3}
+          alt="Third slide"
+        />
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
-          <p>
+          {/* <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -28,7 +28,7 @@ export default function Contact() {
         placement={"left"}
         overlay={
           <Popover className="contact">
-            <Popover.Header as="h3">{`Contact`}</Popover.Header>
+            <Popover.Header as="h3">{`Contacto`}</Popover.Header>
             <Popover.Body>
               <Form onSubmit={sendEmail}>
                 <Form.Group>

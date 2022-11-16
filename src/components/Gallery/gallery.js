@@ -19,27 +19,25 @@ import "./gallery.css";
 
 function gallery() {
   return (
-    <div className="principal">
+    <div>
       <section id="gallery" className="container">
         <div class="text-center pt-5">
           <h1>Salon Principal</h1>
           <p>
-          Siempre hay motivos para celebrar!!...
-Organiza tu fiesta en nuestro salón completamente equipado para vos!! 
+            Siempre hay motivos para celebrar!!... Organiza tu fiesta en nuestro
+            salón completamente equipado para vos!!
           </p>
-          
-          
         </div>
-            <ul>
-              <li>Estacionamiento</li>
-              <li>Barra</li>
-              <li>Cocina completamente equipada</li>
-              <li>Baños (Hombres - Mujeres - Adaptado)</li>
-              <li>WiFi</li>
-              <li>Patio de verano</li>
-              <li>Grupo electrogeno</li>
-              <li>Sonido e iluminacion</li>
-            </ul>
+        <ul>
+          <li>Estacionamiento</li>
+          <li>Barra</li>
+          <li>Cocina completamente equipada</li>
+          <li>Baños (Hombres - Mujeres - Adaptado)</li>
+          <li>WiFi</li>
+          <li>Patio de verano</li>
+          <li>Grupo electrogeno</li>
+          <li>Sonido e iluminacion</li>
+        </ul>
 
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">

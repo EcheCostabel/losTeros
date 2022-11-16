@@ -17,10 +17,10 @@ function navBar() {
               Home
             </Nav.Link>
             <Nav.Link href="#gallery" className="navLinks">
-              Galeria
+              Salon Principal
             </Nav.Link>
-            <Nav.Link href="#contact" className="navLinks">
-              Contacto
+            <Nav.Link href="#hotel" className="navLinks">
+              Hotel
             </Nav.Link>
             <Nav.Link href="#link3" className="navLinks">
               Sobre Nosotros

@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Popover from "react-bootstrap/Popover";
 import Form from "react-bootstrap/Form";
+import Img from "./images/chat.svg";
 import "./contact.css";
 
 export default function Contact() {
@@ -65,7 +66,9 @@ export default function Contact() {
           </Popover>
         }
       >
-        <Button variant="secondary">Contact </Button>
+        <Button variant="secondary">
+          <img src={Img}></img>
+        </Button>
       </OverlayTrigger>
     </div>
   );

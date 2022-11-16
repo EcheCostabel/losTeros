@@ -15,10 +15,15 @@ function Hotel() {
             <section id="hotel" className="container">
                 <div class="text-center pt-5">
                     <h1>Hotel</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, Repellat,
-                        aspernatur.
-                    </p>
+                    <h5>
+                    Disfrutá  la tranquilidad de nuestro alojamiento rodeado de mucha naturaleza
+                    </h5>
+                    <ul>
+                        <li>WiFi</li>
+                        <li>Estacionamiento</li>
+                        <li>Habitaciones cuádruples y dúplex</li>
+                        <li>Patio</li>
+                    </ul>
                 </div>
 
                 <div className="row">

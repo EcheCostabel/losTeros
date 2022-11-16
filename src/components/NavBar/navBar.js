@@ -22,7 +22,7 @@ function navBar() {
             <Nav.Link href="#hotel" className="navLinks">
               Hotel
             </Nav.Link>
-            <Nav.Link href="#link3" className="navLinks">
+            <Nav.Link href="#about" className="navLinks">
               Sobre Nosotros
             </Nav.Link>
           </Nav>

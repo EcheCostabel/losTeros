@@ -1,0 +1,21 @@
+.contact{
+    width: 300px;
+    height: 400px;
+}
+
+.contactForm{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 10px;
+}

@@ -9,30 +9,30 @@ function Carousell() {
     <Carousel>
       <Carousel.Item className='carou'>
         <img
-          className="d-block w-100"
+          className="imgg"
           src={img1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Organizamos tu fiesta en nuestro salón completamente equipado para vos!</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='carou'>
         <img
-          className="d-block w-100"
+          className="imgg"
           src={img2}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>Dejanos ser parte de tu mejor recuerdo.</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='carou'>
         <img
-          className="d-block w-100"
+          className="imgg"
           src={img3}
           alt="Third slide"
         />

@@ -1,6 +1,6 @@
 import NavBar from "./NavBar/navBar";
 import Footer from "./Footer/footer";
-import Contact from "./Contact";
+import Contact from "./Contact/contact";
 import Gallery from "./Gallery/gallery";
 
 export default function Home() {

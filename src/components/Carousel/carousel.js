@@ -9,7 +9,7 @@ function Carousell() {
 
     <Carousel className="carrusel">
       <Carousel.Item className="carou">
-        <img className="d-block w-100" src={img1} alt="First slide" />
+        <img className="imgg" src={img1} alt="First slide" />
 
         <Carousel.Caption>
           <h3>Organizamos tu fiesta en nuestro salón completamente equipado para vos!</h3>

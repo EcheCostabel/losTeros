@@ -2,9 +2,27 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./navBar.css";
+import React, { useState } from 'react'
 
-function navBar() {
+
+
+
+function NavBar() {
+//   const [ navBar1, setNavBar1 ] = useState(false)
+
+
+
+// const changeNavBar = () => {
+//   if(window.scrollY >= 50){
+//     setNavBar1(true)
+//   }else{
+//     setNavBar1(false)
+//   }
+// }
+
+// window.addEventListener('scroll', changeNavBar)
   return (
+    //  <Navbar className={navBar1 ? 'active-nav' : 'active-nav1'}>
     <Navbar className="fixed-top" bg="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home" className="navLinks">
@@ -32,4 +50,4 @@ function navBar() {
   );
 }
 
-export default navBar;
+export default NavBar;

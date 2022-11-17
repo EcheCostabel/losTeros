@@ -18,12 +18,12 @@ function Hotel() {
                     <h5>
                     Disfrutá  la tranquilidad de nuestro alojamiento rodeado de mucha naturaleza
                     </h5>
-                    <ul>
-                        <li>WiFi</li>
-                        <li>Estacionamiento</li>
-                        <li>Habitaciones cuádruples y dúplex</li>
-                        <li>Patio</li>
-                    </ul>
+                    
+                    <span>WiFi</span><br />
+                    <span>Estacionamiento</span><br />
+                    <span>Habitaciones cuádruples y dúplex</span><br />
+                    <span>Patio</span>
+
                 </div>
 
                 <div className="row">

@@ -31,7 +31,7 @@ function gallery() {
           
 
         </div>
-        <ul>
+        {/* <ul>
           <li>Estacionamiento</li>
           <li>Barra</li>
           <li>Cocina completamente equipada</li>
@@ -40,7 +40,16 @@ function gallery() {
           <li>Patio de verano</li>
           <li>Grupo electrogeno</li>
           <li>Sonido e iluminacion</li>
-        </ul>
+        </ul> */}
+
+        <span className='pp'>Estacionamiento</span><br />
+        <span className='pp'>Barra</span><br />
+        <span className='pp'>Cocina completamente equipada</span><br />
+        <span className='pp'>Baños (Hombres - Mujeres - Adaptado)</span><br />
+        <span className='pp'>WiFi</span><br />
+        <span className='pp'>Patio de verano</span><br />
+        <span className='pp'>Grupo electrogeno</span><br />
+        <span className='pp'>Sonido e iluminacion</span>
 
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">

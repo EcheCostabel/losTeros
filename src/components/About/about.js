@@ -2,6 +2,9 @@ export default function About() {
   return (
     <section id='about' className="sec">
     <div className="container">
+      <br />
+      <br />
+      <br />
       <h3>Sobre Nosotros</h3>
 
       <p>

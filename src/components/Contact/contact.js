@@ -37,6 +37,7 @@ export default function Contact() {
                     type="text"
                     placeholder="Ingresa tu nombre"
                     name="user_name"
+                    required
                   ></Form.Control>
                 </Form.Group>
                 <Form.Group>
@@ -45,6 +46,7 @@ export default function Contact() {
                     type="email"
                     placeholder="Ingresa tu email"
                     name="user_email"
+                    required
                   />
                 </Form.Group>
                 <Form.Group>
@@ -54,6 +56,7 @@ export default function Contact() {
                     rows={4}
                     placeholder="Mensaje"
                     name="user_message"
+                    required
                   ></Form.Control>
                 </Form.Group>
                 <div className="button">

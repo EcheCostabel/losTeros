@@ -20,13 +20,11 @@ import "./gallery.css";
 function gallery() {
   return (
     <div>
-      <section id="gallery" className="container">
+      <section id="principal" className="container">
         <div class="text-center pt-5">
           <h1>Salon Principal</h1>
 
-          <h5>
-          Siempre hay motivos para celebrar!!...
-          </h5>
+         <br />
           
           
 

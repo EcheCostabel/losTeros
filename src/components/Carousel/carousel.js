@@ -7,7 +7,7 @@ import "./carousel.css";
 function Carousell() {
   return (
 
-    <Carousel className="carrusel">
+    <Carousel className="carrusel" id='inicio'>
       <Carousel.Item className="carou">
         <img className="imgg" src={img1} alt="First slide" />
 
@@ -39,7 +39,7 @@ function Carousell() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Siempre hay motivos para celebrar!!</h3>
           {/* <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p> */}

@@ -5,13 +5,13 @@ export default function About() {
       <br />
       <br />
       <br />
-      <h3>Sobre Nosotros</h3>
+      <h1>Sobre Nosotros</h1>
 
-      <p>
+      <span>
         Empezamos a trabajar en esta idea hace dos años, con la pandemia. Decidimos en el seno familiar reabrir el espacio pero de otra forma, darle vida a
         un proyecto nuevo. A partir de allí comenzamos a diseñar este espacio para la realización de eventos
-      </p>
-    </div>
+      </span>
+    </div><br/><br/>
     </section>
   );
 }

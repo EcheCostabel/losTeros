@@ -31,7 +31,7 @@ function Footer() {
         <div className="col-xs-12 col-md-6 col-lg-3">
           <p className="h5 mb-3">Contacto</p>
           <div className="mb-1">
-            <a className="text-secondary text-decoration-none "  target='_blank' href="https://wa.me/3426310014">
+            <a className="text-secondary text-decoration-none "  target='_blank' href="https://wa.me/3425606269">
               <UilWhatsappAlt />
             </a>
           </div>

@@ -7,12 +7,12 @@ function Footer() {
   return (
     <footer className="container-fluid bg-dark text-white">
       <div className="container row p-5 pb-2 ">
-        <div className="col-xs-12 col-md-6 col-lg-3">
+        <div className="col-xs-12 col-md-6 col-lg-4">
           <p className='fs-40'>Complejo Los Teros</p>
           {/* <img alt="logoqatar" src={logo} /> */}
         </div>
-        <div className="col-xs-12 col-md-6 col-lg-3">
-          <p className="h5 mb-3">Links</p>
+        <div className="col-xs-12 col-md-6 col-lg-4">
+          <p className="h5 mb-3">Terminos</p>
           <div className="mb-1">
             <a
               className="text-secondary text-decoration-none "
@@ -28,7 +28,7 @@ function Footer() {
           </div>
         </div>
         
-        <div className="col-xs-12 col-md-6 col-lg-3">
+        <div className="col-xs-12 col-md-6 col-lg-4">
           <p className="h5 mb-3">Contacto</p>
           <div className="mb-1">
             <a className="text-secondary text-decoration-none "  target='_blank' href="https://wa.me/3425606269">

@@ -31,10 +31,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="navLinks">
-              Home
+            <Nav.Link href="#inicio" className="navLinks">
+              Inicio
             </Nav.Link>
-            <Nav.Link href="#gallery" className="navLinks">
+            <Nav.Link href="#principal" className="navLinks">
               Salon Principal
             </Nav.Link>
             <Nav.Link href="#hotel" className="navLinks">

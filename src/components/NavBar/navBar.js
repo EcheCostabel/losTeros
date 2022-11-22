@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./navBar.css";
 import React, { useState } from 'react'
-import logo from './fotloste.png'
+import logo from './teroo.png'
 
 
 
@@ -28,7 +28,7 @@ function NavBar() {
       <Container>
         
           <a>
-            <img src={logo} alt='Los Teros' height={70} width={120}/>
+            <img src={logo} alt='Los Teros' height={80} width={120}/>
              </ a>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

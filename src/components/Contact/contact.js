@@ -60,7 +60,7 @@ export default function Contact() {
                   ></Form.Control>
                 </Form.Group>
                 <div className="button">
-                  <Button variant="primary" type="submit">
+                  <Button variant="dark" type="submit">
                     Enviar
                   </Button>
                 </div>
@@ -69,7 +69,7 @@ export default function Contact() {
           </Popover>
         }
       >
-        <Button variant="secondary">
+        <Button className="buttonContact" variant="light">
           <img src={Img}></img>
         </Button>
       </OverlayTrigger>

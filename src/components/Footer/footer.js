@@ -1,7 +1,7 @@
 import React from "react";
-import { UilInstagramAlt, UilWhatsappAlt } from '@iconscout/react-unicons'
-import logo from '../NavBar/teroo.png'
-// import logo from './logoqatar.jpg'
+import { UilInstagramAlt, UilWhatsappAlt } from "@iconscout/react-unicons";
+import logo from "../NavBar/teroo.png";
+import "./footer.css";
 
 function Footer() {
   return (
@@ -18,25 +18,33 @@ function Footer() {
               className="text-secondary text-decoration-none "
               href="/terminos"
             >
-              Terms and Condition
+              Terminos y Condiciones
             </a>
           </div>
           <div className="mb-1">
             <a className="text-secondary text-decoration-none " href="/privacy">
-              Privacy Policy
+              Politica de Privacidad
             </a>
           </div>
         </div>
-        
+
         <div className="col-xs-12 col-md-6 col-lg-4">
           <p className="h5 mb-3">Contacto</p>
           <div className="mb-1">
-            <a className="text-secondary text-decoration-none "  target='_blank' href="https://wa.me/3425606269">
+            <a
+              className="text-secondary text-decoration-none "
+              target="_blank"
+              href="https://wa.me/3425606269"
+            >
               <UilWhatsappAlt />
             </a>
           </div>
           <div className="mb-1">
-            <a className="text-secondary text-decoration-none" target='_blank' href="https://instagram.com/losteroscomplejo?igshid=YmMyMTA2M2Y=">
+            <a
+              className="text-secondary text-decoration-none"
+              target="_blank"
+              href="https://instagram.com/losteroscomplejo?igshid=YmMyMTA2M2Y="
+            >
               <UilInstagramAlt />
             </a>
           </div>

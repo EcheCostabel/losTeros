@@ -12,7 +12,9 @@ import './hotel.css'
 function Hotel() {
     return (
         <div>
-            <section id="hotel" className="container">
+            <br id='hotel'/>
+            <br />
+            <section id="hotel1" className="container">
                 <div class="text-center pt-5">
                     <h1>Hotel</h1>
                     <h5>

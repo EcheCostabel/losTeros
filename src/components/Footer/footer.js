@@ -1,6 +1,6 @@
 import React from "react";
 import { UilInstagramAlt, UilWhatsappAlt } from '@iconscout/react-unicons'
-// import logo from "./logoFooter.png";
+import logo from '../NavBar/fotloste.png'
 // import logo from './logoqatar.jpg'
 
 function Footer() {
@@ -8,8 +8,8 @@ function Footer() {
     <footer className="container-fluid bg-dark text-white">
       <div className="container row p-5 pb-2 ">
         <div className="col-xs-12 col-md-6 col-lg-4">
-          <p className='fs-40'>Complejo Los Teros</p>
-          {/* <img alt="logoqatar" src={logo} /> */}
+          {/* <p className='fs-40'>Complejo Los Teros</p> */}
+          <img alt="Los Teros" src={logo} />
         </div>
         <div className="col-xs-12 col-md-6 col-lg-4">
           <p className="h5 mb-3">Terminos</p>

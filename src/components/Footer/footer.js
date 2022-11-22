@@ -1,6 +1,6 @@
 import React from "react";
 import { UilInstagramAlt, UilWhatsappAlt } from '@iconscout/react-unicons'
-import logo from '../NavBar/fotloste.png'
+import logo from '../NavBar/teroo.png'
 // import logo from './logoqatar.jpg'
 
 function Footer() {

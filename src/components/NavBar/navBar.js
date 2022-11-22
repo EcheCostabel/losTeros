@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./navBar.css";
 import React, { useState } from 'react'
+import logo from './fotloste.png'
 
 
 
@@ -17,7 +18,7 @@ function NavBar() {
 //     setNavBar1(true)
 //   }else{
 //     setNavBar1(false)
-//   }
+//   }\
 // }
 
 // window.addEventListener('scroll', changeNavBar)
@@ -25,9 +26,11 @@ function NavBar() {
     //  <Navbar className={navBar1 ? 'active-nav' : 'active-nav1'}>
     <Navbar className="fixed-top" bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home" className="navLinks">
-          Complejo Los Teros
-        </Navbar.Brand>
+        
+          <a>
+            <img src={logo} alt='Los Teros' height={70} width={120}/>
+             </ a>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

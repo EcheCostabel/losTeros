@@ -13,7 +13,7 @@ export default function Home() {
       <Carousel />
       <Gallery />
       <Hotel />
-      <Contact />
+      {/* <Contact /> */}
       <About />
       <Footer />
     </div>

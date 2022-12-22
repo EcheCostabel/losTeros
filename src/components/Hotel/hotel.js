@@ -84,7 +84,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img1}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img1} />
           </div>
         </div>
       </div>
@@ -97,7 +103,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img2}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img2} />
           </div>
         </div>
       </div>
@@ -110,7 +122,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img3}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img3} />
           </div>
         </div>
       </div>
@@ -123,7 +141,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img4}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img4} />
           </div>
         </div>
       </div>
@@ -136,7 +160,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img5}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img5} />
           </div>
         </div>
       </div>
@@ -149,7 +179,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img6}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img6} />
           </div>
         </div>
       </div>
@@ -162,7 +198,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img7}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img7} />
           </div>
         </div>
       </div>
@@ -175,7 +217,13 @@ function Hotel() {
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">
-            <img src={img8}></img>
+            <button
+              type="button"
+              class="btn-close bg-light text-dark"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <img class="img-modal" src={img8} />
           </div>
         </div>
       </div>
